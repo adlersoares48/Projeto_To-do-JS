@@ -115,3 +115,13 @@ button:hover > i{
     text-decoration: line-through;
     font-style: italic;
 }
+
+@media(width <= 600px) {
+    .todo-container {
+        max-width: 300px;
+        margin: 3rem auto;
+        background-color: #FDFDFD;
+        padding: 1.5rem;
+        border-radius: 15px;
+    }
+}
